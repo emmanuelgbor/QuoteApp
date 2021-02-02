@@ -9,15 +9,13 @@ export default function App() {
       <Nav />
       <QuoteList styles={{ maxWidth: "300px" }} />
       <footer style={{ backgroundColor: "#6E4B92", color: "white" }}>
-        Subscribe to my youtube!
+        <p>mini app series 1/3 </p>
         <a href="https://www.youtube.com/channel/UCgS9qJuRkdTZ1DAGmcSlajA/videos">
+          Subscribe to my youtube!
           <span role="img" aria-label="heart emoji's">
-            🔊
+            ➡️
           </span>
           Emmanuel
-          <span role="img" aria-label="heart emoji's">
-            🔊
-          </span>
         </a>
       </footer>
     </div>
