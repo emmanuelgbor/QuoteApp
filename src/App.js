@@ -9,13 +9,24 @@ export default function App() {
       <Nav />
       <QuoteList styles={{ maxWidth: "300px" }} />
       <footer style={{ backgroundColor: "#6E4B92", color: "white" }}>
-        <p>mini app series 1/3 </p>
+        <p>mini app series 1/? </p>
         <a href="https://www.youtube.com/channel/UCgS9qJuRkdTZ1DAGmcSlajA/videos">
-          Subscribe to my youtube!
           <span role="img" aria-label="heart emoji's">
-            ➡️
+          📹
           </span>
-          Emmanuel
+          Youtube
+        </a>
+        <a href="https://github.com/emmanuelgbor/QuoteApp.git">
+          <span role="img" aria-label="heart emoji's">
+          {" "} 
+          </span>
+          GitHub
+        </a>
+        <a href="https://codesandbox.io/s/github/emmanuelgbor/QuoteApp">
+          <span role="img" aria-label="heart emoji's">
+          {" "} 
+          </span>
+          CodeSandBox
         </a>
       </footer>
     </div>
